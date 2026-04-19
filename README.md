@@ -103,11 +103,11 @@ pip install -r requirements.txt
 Create a `.env` file in the project root:
 
 ```env
-ANTHROPIC_API_KEY=sk-ant-...        # Your real Anthropic API key
+ANTHROPIC_API_KEY=sk-ant-...        
 DB_PATH=data/support.db
 CHROMA_PERSIST_DIR=./chroma_db
 POLICIES_DIR=data/pdfs
-HF_HUB_OFFLINE=1                    # Prevents network calls to HuggingFace Hub
+HF_HUB_OFFLINE=1                    
 TRANSFORMERS_OFFLINE=1
 ```
 
